@@ -19,9 +19,9 @@ app = Flask(__name__)
 
 
 # Channel Access Token
-line_bot_api = LineBotApi('8RDRlqTBPnpai7Mf/iRX7bvPrbzOlmSWZjOVyegT4XQM+TpsnO1wzruJfd6BGH/f+EZsKsFDUdmtAXD6EaoHlCJJ33el/4Dn9O9JU7pTlBYzHkQ9bAFdQeLvUEzgfSNKQxkllEHDriWRJDqA0SgP1AdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('TOKEN')
 # Channel Secret
-handler = WebhookHandler('f6517de47f7e678c32c2da64b650e462')
+handler = WebhookHandler('SECRET')
 
 freeticket=[]
 def reply():
